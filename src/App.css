@@ -564,7 +564,7 @@ html {
   right: 0;
   color: #fff;
   text-align: center;
-  font-family: 'lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
@@ -573,7 +573,6 @@ html {
 }
 #title span {
   background: -webkit-linear-gradient(white, #38495a);
-  color: '#fff';
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
