@@ -1,11 +1,13 @@
 import React from 'react'
-import './header.css'
-import background from '../../assets/background.png'
+import './header.scss'
 
 function Header() {
   return (
-    <div>
-      <img className="home-background" src={background} alt="background" />
+    <div className="header-row">
+      <span>Home</span>
+      <span>Projects</span>
+      <span>Blogs</span>
+      <span>Lifestyle</span>
     </div>
   )
 }

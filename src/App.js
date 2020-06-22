@@ -6,6 +6,9 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <div className="intro">
+        <h1>Hi I am a Frontend Developer</h1>
+      </div>
     </div>
   )
 }
