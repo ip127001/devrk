@@ -1,10 +1,10 @@
 {
   "short_name": "devrk",
-  "name": "Curious developer",
+  "name": "Rohit Kumawat {Frontend dev}",
   "icons": [
     {
-      "src": "mylogo.png",
-      "type": "image/png"
+      "src": "logo.jpeg",
+      "type": "image/jpeg"
     }
   ],
   "start_url": ".",
