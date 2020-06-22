@@ -9,9 +9,20 @@ body {
 
 .intro {
   padding-top: 20em;
+  padding-left: 10em;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 510px;
+}
+
+.App h2 {
+  color: #fff;
+  text-align: left;
+
+  span {
+    color: #0696e9;
+  }
 }
 
 /* DEMO-SPECIFIC STYLES */
@@ -21,7 +32,7 @@ body {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
@@ -32,7 +43,7 @@ body {
     width: 0;
   }
   to {
-    width: 400px;
+    width: 100%;
   }
 }
 
