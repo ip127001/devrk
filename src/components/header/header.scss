@@ -40,3 +40,16 @@
     color: #fff;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header-row {
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+
+  .header-right {
+    span {
+      font-size: 12px;
+    }
+  }
+}

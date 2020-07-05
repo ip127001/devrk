@@ -17,3 +17,19 @@
     }
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .footer-row {
+    padding: 50px 30px 100px 30px;
+
+    img {
+      width: 24px;
+      height: 24px;
+      margin-left: 20px;
+    }
+
+    span {
+      font-size: 16px;
+    }
+  }
+}

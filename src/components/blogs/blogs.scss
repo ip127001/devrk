@@ -1,11 +1,12 @@
 .blog-section {
-  padding: 100px 150px;
+  margin: 100px 150px;
 
   &__title {
     font-size: 36px;
     font-weight: 500;
   }
 }
+
 .blog-wrapper {
   margin-top: 30px;
   display: flex;
@@ -64,5 +65,29 @@
 
   .single-blog:nth-child(3n) {
     margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .blog-section {
+    margin: 100px 30px;
+
+    &__title {
+      font-size: 28px;
+    }
+  }
+
+  .blog-wrapper {
+    flex-direction: column;
+
+    .single-blog {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+      margin-right: 0px;
+
+      .blog-background {
+        height: 250px;
+      }
+    }
   }
 }
