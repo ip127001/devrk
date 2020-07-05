@@ -1,9 +1,9 @@
 {
-  "short_name": "devrk",
-  "name": "Rohit Kumawat {Frontend dev}",
+  "short_name": "geekrk",
+  "name": "Rohit Kumawat",
   "icons": [
     {
-      "src": "logo.jpeg",
+      "src": "geekrk.png",
       "type": "image/jpeg"
     }
   ],

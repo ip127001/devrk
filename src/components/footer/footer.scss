@@ -1,0 +1,19 @@
+.footer-row {
+  padding: 100px 150px;
+  display: flex;
+
+  span {
+    font-size: 22px;
+  }
+  img {
+    width: 28px;
+    height: 28px;
+    margin-left: 30px;
+    transition: 0.5s ease-out;
+
+    &:hover {
+      transform: scale(1.5);
+      transition: 0.3s ease-in;
+    }
+  }
+}

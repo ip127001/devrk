@@ -1,18 +1,60 @@
 import React from 'react'
 import './App.scss'
 import Header from './components/header/header'
+import Footer from './components/footer/footer'
+import background from './assets/startup.svg'
+import Blog from './components/blogs/blogs'
+import js from './assets/js-icon.svg'
+import react from './assets/react-icon.svg'
+import angular from './assets/angular-icon.svg'
+import typescript from './assets/typescript-icon.svg'
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <div className="intro">
-        <h1>Hi, I am a Frontend Developer</h1>
-        <h2>Javascript, Angular, React</h2>
-        <h2>
-          Catch me on twitter <span>@geekrk</span>
-        </h2>
+      <main>
+        <Header></Header>
+        <section className="website-background">
+          <div className="intro-section">
+            <span>Hey, I'm Rohit</span>
+            <span>
+              Frontend developer
+              <a
+                className="company-link"
+                href="https://primathon.in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @Primathon
+              </a>
+            </span>
+            <span>I Love Web and F.R.I.E.N.D.S.</span>
+          </div>
+          <img src={background} alt="background" className="svg-background" />
+        </section>
+      </main>
+
+      <div className="tech-stack-container">
+        <div className="tech-stack">
+          <span>My Favourite Tech Stack: </span>
+          <img src={typescript} alt="typescript" />
+          <img src={js} alt="js" />
+          <img src={react} alt="react" />
+          <img src={angular} alt="angular" style={{ width: '100px' }} />
+        </div>
+        <div className="tech-stack">
+          <span>Currently working on: </span>
+          <img
+            src="https://img.icons8.com/fluent/96/000000/chrome.png"
+            alt="chrome"
+          />
+          Chrome Extensions
+        </div>
       </div>
+
+      <Blog></Blog>
+
+      <Footer></Footer>
     </div>
   )
 }

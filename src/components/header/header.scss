@@ -1,35 +1,42 @@
 .header-row {
-  color: orange;
-  float: right;
-  margin-top: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  .logo {
+    text-decoration: none;
+    color: #1981d6;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.header-right {
   span {
-    margin: 30px;
+    color: #33475b;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 20px;
     font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
-    position: relative;
+    padding: 4px;
 
-    /*effect-underline*/
-    &:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      display: inline-block;
-      height: 1em;
-      width: 100%;
-      border-bottom: 1px solid;
-      margin-top: 10px;
-      opacity: 0;
-      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-      transition: opacity 0.35s, transform 0.35s;
-      -webkit-transform: scale(0, 1);
-      transform: scale(0, 1);
+    &:hover {
+      opacity: 0.9;
+      color: white;
+      background-color: rgb(33, 113, 138);
+      transition: background-color 0.5s ease;
     }
+  }
+}
 
-    &:hover:after {
-      opacity: 1;
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
+.headline {
+  &__intro {
+    font-size: 26px;
+    color: #fff;
   }
 }
