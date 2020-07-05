@@ -15,10 +15,10 @@ function Blog() {
     },
     {
       background: objects,
-      title: 'Usercase of Reduce method',
+      title: 'Convert an array to an object',
       description:
         'Generally, when we need to convert an array to object, we can use reduce method. I used an example to explain in this article.',
-      link: 'https://dev.to/ip127001/copying-objects-in-javascript-440b',
+      link: 'https://dev.to/ip127001/convert-an-array-to-an-object-pne',
     },
     {
       background: react,
