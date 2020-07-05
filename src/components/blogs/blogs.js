@@ -23,7 +23,7 @@ function Blog() {
     {
       background: react,
       title: 'Stop re-rendering in React',
-      description: 'Coming tonight!',
+      description: 'Coming Soon...',
       link: '#',
     },
   ]
