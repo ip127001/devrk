@@ -2,7 +2,7 @@ import React from 'react'
 import './blogs.scss'
 import array from '../../assets/array.png'
 import objects from '../../assets/objects.png'
-import react from '../../assets/react.png'
+import js from '../../assets/js.png'
 
 function Blog() {
   const mainObjArr = [
@@ -21,10 +21,11 @@ function Blog() {
       link: 'https://dev.to/ip127001/convert-an-array-to-an-object-pne',
     },
     {
-      background: react,
-      title: 'Stop re-rendering in React',
-      description: 'Coming Soon...',
-      link: '#',
+      background: js,
+      title: 'Slice vs Splice',
+      description:
+        'There is often a confusion between slice and splice JavaScript array methods. It is a commonly asked question in Javascript interview for freshers.',
+      link: 'https://dev.to/ip127001/slice-vs-splice-hmd',
     },
   ]
   return (
