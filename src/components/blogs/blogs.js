@@ -28,6 +28,15 @@ function Blog() {
       link: 'https://dev.to/ip127001/slice-vs-splice-hmd',
     },
   ]
+
+  function trackClick(link) {
+    window.gtag('event', 'blog_clicked', {
+      event_category: 'articles',
+      event_label: 'link tracking',
+      value: link,
+    })
+  }
+
   return (
     <section className="blog-section">
       <span className="blog-section__title">My Blogs: </span>
@@ -49,6 +58,7 @@ function Blog() {
                   href={element.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackClick(element.link)}
                 >
                   link to article
                 </a>

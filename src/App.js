@@ -10,6 +10,14 @@ import angular from './assets/angular-icon.svg'
 import typescript from './assets/typescript-icon.svg'
 
 function App() {
+  function clickLink() {
+    window.gtag('event', 'company_link_clicked', {
+      event_category: 'tech',
+      event_label: 'link tracking',
+      value: 'https://primathon.in',
+    })
+  }
+
   return (
     <div className="App">
       <main>
@@ -24,6 +32,7 @@ function App() {
                 href="https://primathon.in"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => clickLink()}
               >
                 @Primathon
               </a>

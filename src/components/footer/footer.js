@@ -19,13 +19,26 @@ function Footer() {
     },
   ]
 
+  function trackClick(link) {
+    window.gtag('event', 'social_media_clicked', {
+      event_category: 'social media',
+      event_label: 'social media tracking',
+      value: link,
+    })
+  }
+
   return (
     <div className="footer-row">
       <span> Let's connect:</span>
       {socialArr.map((el) => {
         return (
           <div>
-            <a href={el.link} target="_blank" rel="noopener noreferrer">
+            <a
+              href={el.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => trackClick(el.link)}
+            >
               <img src={el.name} alt={el.name} />
             </a>
           </div>
