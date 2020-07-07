@@ -84,9 +84,10 @@
       flex-basis: 100%;
       margin-bottom: 30px;
       margin-right: 0px;
+      background-color: #fff;
 
       .blog-background {
-        height: 250px;
+        display: none;
       }
     }
   }
