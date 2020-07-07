@@ -7,6 +7,13 @@ import js from '../../assets/js.png'
 function Blog() {
   const mainObjArr = [
     {
+      background: js,
+      title: 'Slice vs Splice',
+      description:
+        'There is often a confusion between slice and splice JavaScript array methods. It is a commonly asked question in Javascript interview for freshers.',
+      link: 'https://dev.to/ip127001/slice-vs-splice-hmd',
+    },
+    {
       background: array,
       title: 'Copying in JavaScript',
       description:
@@ -20,13 +27,6 @@ function Blog() {
         'Generally, when we need to convert an array to object, we can use reduce method. I used an example to explain in this article.',
       link: 'https://dev.to/ip127001/convert-an-array-to-an-object-pne',
     },
-    {
-      background: js,
-      title: 'Slice vs Splice',
-      description:
-        'There is often a confusion between slice and splice JavaScript array methods. It is a commonly asked question in Javascript interview for freshers.',
-      link: 'https://dev.to/ip127001/slice-vs-splice-hmd',
-    },
   ]
 
   function trackClick(link) {
@@ -39,7 +39,7 @@ function Blog() {
 
   return (
     <section className="blog-section">
-      <span className="blog-section__title">My Blogs: </span>
+      <span className="blog-section__title">Recent Blogs: </span>
       <div className="blog-wrapper">
         {mainObjArr.map((element) => {
           return (
