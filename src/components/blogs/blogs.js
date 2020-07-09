@@ -60,7 +60,7 @@ function Blog() {
                   rel="noopener noreferrer"
                   onClick={() => trackClick(element.link)}
                 >
-                  link to article
+                  Read...
                 </a>
               </div>
             </div>
