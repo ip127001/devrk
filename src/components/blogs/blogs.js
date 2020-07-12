@@ -27,6 +27,14 @@ function Blog() {
         'Generally, when we need to convert an array to object, we can use reduce method. I used an example to explain in this article.',
       link: 'https://dev.to/ip127001/convert-an-array-to-an-object-pne',
     },
+    {
+      background: js,
+      title: '5 ways to delete an element from array',
+      description:
+        'There is a situation when we need to delete elements from array based on conditions or given index of array. This article covers 5 days to do that and which on I prefer.',
+      link:
+        'https://dev.to/ip127001/5-ways-to-delete-an-element-from-an-array-in-javascript-jm9',
+    },
   ]
 
   function trackClick(link) {
@@ -44,11 +52,12 @@ function Blog() {
         {mainObjArr.map((element) => {
           return (
             <div className="single-blog">
-              <img
+              <div className="layer-2"></div>
+              {/* <img
                 src={element.background}
                 alt="card"
                 className="blog-background"
-              />
+              /> */}
               <div className="blog-desc">
                 <span className="blog-desc__title">{element.title}</span>
                 <span className="blog-desc__description">
@@ -60,7 +69,7 @@ function Blog() {
                   rel="noopener noreferrer"
                   onClick={() => trackClick(element.link)}
                 >
-                  Read...
+                  Read more...
                 </a>
               </div>
             </div>
