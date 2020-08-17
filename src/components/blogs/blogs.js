@@ -3,6 +3,7 @@ import './blogs.scss'
 import array from '../../assets/array.png'
 import objects from '../../assets/objects.png'
 import js from '../../assets/js.png'
+import shouldComponentUpdate from '../../assets/shouldComponentUpdate.png'
 
 function Blog() {
   const mainObjArr = [
@@ -35,6 +36,14 @@ function Blog() {
       link:
         'https://dev.to/ip127001/5-ways-to-delete-an-element-from-an-array-in-javascript-jm9',
     },
+    {
+      background: shouldComponentUpdate,
+      title: 'Performance optimization in react',
+      description:
+        'The most discussed performance technique is to avoid reconciliation and I have discussed throughly in this blog',
+      link:
+        'https://dev.to/ip127001/avoid-reconciliation-using-shouldcomponent-550m',
+    }
   ]
 
   function trackClick(link) {
