@@ -43,7 +43,7 @@ function Blog() {
         'The most discussed performance technique is to avoid reconciliation and I have discussed throughly in this blog',
       link:
         'https://dev.to/ip127001/avoid-reconciliation-using-shouldcomponent-550m',
-    }
+    },
   ]
 
   function trackClick(link) {
@@ -56,7 +56,7 @@ function Blog() {
 
   return (
     <section className="blog-section">
-      <span className="blog-section__title">Recent Blogs: </span>
+      <span className="blog-section__title">Blog Posts: </span>
       <div className="blog-wrapper">
         {mainObjArr.map((element) => {
           return (

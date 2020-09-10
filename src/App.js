@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Header></Header>
+        {/* <Header></Header> */}
         <section className="website-background">
           <div className="intro-section">
             <span>Hey, I'm Rohit</span>
