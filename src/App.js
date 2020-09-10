@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.scss'
-import Header from './components/header/header'
 import Footer from './components/footer/footer'
 import background from './assets/startup.svg'
 import Blog from './components/blogs/blogs'
@@ -18,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <main>
-        {/* <Header></Header> */}
         <section className="website-background">
           <div className="intro-section">
             <span>Hey, I'm Rohit</span>
