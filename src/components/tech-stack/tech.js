@@ -11,9 +11,9 @@ function Tech() {
       <div className="tech-stack">
         <span>My Favourites: </span>
         <div className="tech-stack__logos">
+          <img src={react} alt="react" />
           <img src={typescript} alt="typescript" />
           <img src={js} alt="js" />
-          <img src={react} alt="react" />
           <img src={angular} alt="angular" style={{ width: '100px' }} />
         </div>
       </div>
@@ -21,4 +21,4 @@ function Tech() {
   )
 }
 
-export default Tech
+export default Tech;
