@@ -9,7 +9,7 @@ function Tech() {
   return (
     <div className="tech-stack-container">
       <div className="tech-stack">
-        <span>My Favourites: </span>
+        <span>My Tech Stack: </span>
         <div className="tech-stack__logos">
           <img src={react} alt="react" />
           <img src={typescript} alt="typescript" />
