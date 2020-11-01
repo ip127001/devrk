@@ -5,6 +5,10 @@
     font-size: 36px;
     font-weight: 500;
   }
+
+  &__desc {
+    font-size: 18px;
+  }
 }
 
 .blog-wrapper {
@@ -14,7 +18,7 @@
 
   .single-blog {
     position: relative;
-    background-color: #fff;
+    background-color: #ffffff;
     flex-basis: calc((100% - 180px) / 3);
     border-radius: 4px;
     box-shadow: 0 0 0px 10px rgba(27, 59, 104, 0.15);

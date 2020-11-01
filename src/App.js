@@ -21,7 +21,7 @@ function App() {
           <div className="intro-section">
             <span>Hey, I'm Rohit</span>
             <span>
-              Frontend developer
+              Software Engineer
               <a
                 className="company-link"
                 href="https://primathon.in"
@@ -32,7 +32,20 @@ function App() {
                 @Primathon
               </a>
             </span>
-            <span>I Love Web and F.R.I.E.N.D.S.</span>
+            <ul>
+              <li className="info">
+                I love discussing ideas and shaping them into products.
+              </li>
+              <li className="info">
+                I like solving complex problems and debugging issues.
+              </li>
+              <li className="info">
+                I am framework agnostic and don't shy away from using any tech.
+              </li>
+              <li className="info">I take ownership in my work.</li>
+              <li className="info">I believe in work-life balance.</li>
+              <li className="info">Favourite TV series: F.R.I.E.N.D.S.</li>
+            </ul>
           </div>
           <img src={background} alt="background" className="svg-background" />
         </section>
