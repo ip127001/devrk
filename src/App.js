@@ -29,7 +29,7 @@ function App() {
                 rel="noopener noreferrer"
                 onClick={() => clickLink()}
               >
-                @Primathon
+                @Paytm
               </a>
             </span>
             <ul>
@@ -44,7 +44,7 @@ function App() {
               </li>
               <li className="info">I take ownership in my work.</li>
               <li className="info">I believe in work-life balance.</li>
-              <li className="info">Favourite TV series: F.R.I.E.N.D.S.</li>
+              <li className="info">Fav sitcom: TBBT & FRIENDS</li>
             </ul>
           </div>
           <img src={background} alt="background" className="svg-background" />
