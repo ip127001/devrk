@@ -24,7 +24,7 @@ function App() {
               Software Engineer
               <a
                 className="company-link"
-                href="https://primathon.in"
+                href="https://www.paytmbank.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => clickLink()}
