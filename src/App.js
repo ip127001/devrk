@@ -19,7 +19,7 @@ function App() {
       <main>
         <section className="website-background">
           <div className="intro-section">
-            <span>Hey, I'm Rohit</span>
+            <span>Hi, I'm Rohit</span>
             <span>
               Software Engineer
               <a
@@ -42,8 +42,15 @@ function App() {
               <li className="info">
                 I am framework agnostic and don't shy away from using any tech.
               </li>
-              <li className="info">I take ownership in my work.</li>
               <li className="info">Fav sitcom: TBBT & FRIENDS</li>
+              <li className="info">Fav Band: One direction & Coldplay</li>
+              <li className="info">I share blogs and code snapshots on <a
+                href="https://twitter.com/geekrk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+            </a></li>
             </ul>
           </div>
           <img src={background} alt="background" className="svg-background" />

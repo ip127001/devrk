@@ -81,7 +81,7 @@ function Blog() {
     <section className="blog-section">
       <span className="blog-section__title">Blog Posts: </span>
       <div className="blog-section__desc">
-      { '>' } 10k views on blogs
+      { '>' } 15k views on blogs
       </div>
       <div className="blog-wrapper">
         {mainObjArr.map((element) => {
