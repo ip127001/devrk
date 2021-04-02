@@ -10,10 +10,11 @@ import chrome from '../../assets/chrome.svg'
 
 function Tech() {
   return (
+    
     <div className="tech-stack-container">
-      <div className="tech-stack" style={{ 'margin-bottom': '50px' }}>
+      {/* <div className="tech-stack" style={{ 'margin-bottom': '50px' }}>
         <span>Frontend is all about rendering. </span>
-      </div>
+      </div> */}
       <div className="tech-stack">
         <span>Tech: </span>
         <div className="tech-stack__logos">
@@ -21,10 +22,9 @@ function Tech() {
           <img src={css} alt="css" style={{ width: '100px' }} />
           <img src={js} alt="js" />
           <img src={typescript} alt="typescript" />
-          <img src={react} alt="react" />
-          <img src={angular} alt="angular" style={{ width: '100px' }} />
+          <img src={react} alt="react" style={{ width: '70px' }} />
+          <img src={angular} alt="angular" style={{ width: '70px' }} />
           <img src={chrome} alt="chrome" style={{ width: '75px' }} />
-          Extensions
         </div>
       </div>
     </div>

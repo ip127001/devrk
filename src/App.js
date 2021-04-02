@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.scss'
 import Footer from './components/footer/footer'
-import background from './assets/startup.svg'
+import background from './assets/profile.jpg'
 import Blog from './components/blogs/blogs'
 import Tech from './components/tech-stack/tech'
 
@@ -29,7 +29,7 @@ function App() {
                 rel="noopener noreferrer"
                 onClick={() => clickLink()}
               >
-                @Paytm
+                @Paytm Bank
               </a>
             </span>
             <ul>
@@ -43,7 +43,6 @@ function App() {
                 I am framework agnostic and don't shy away from using any tech.
               </li>
               <li className="info">I take ownership in my work.</li>
-              <li className="info">I believe in work-life balance.</li>
               <li className="info">Fav sitcom: TBBT & FRIENDS</li>
             </ul>
           </div>

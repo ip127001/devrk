@@ -81,7 +81,7 @@ function Blog() {
     <section className="blog-section">
       <span className="blog-section__title">Blog Posts: </span>
       <div className="blog-section__desc">
-        I have crossed over 10,000 views in just 2 months.
+      { '>' } 10k views on blogs
       </div>
       <div className="blog-wrapper">
         {mainObjArr.map((element) => {
