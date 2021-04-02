@@ -14,14 +14,15 @@
 .blog-wrapper {
   margin-top: 30px;
   display: flex;
+  // flex-direction: column;
   flex-wrap: wrap;
 
   .single-blog {
     position: relative;
-    background-color: #ffffff;
+    // width: 40%;
     flex-basis: calc((100% - 180px) / 3);
     border-radius: 4px;
-    box-shadow: 0 0 0px 10px rgba(27, 59, 104, 0.15);
+    // box-shadow: 0 0 0px 10px rgba(27, 59, 104, 0.15);
     margin-right: 30px;
     margin-bottom: 30px;
     padding: 20px;
@@ -29,6 +30,10 @@
     flex-direction: column;
     transition: all 0.3s ease-out;
 
+    img {
+      height: 300px;
+      width: 100%;
+    }
     span {
       margin-bottom: 20px;
     }
@@ -45,22 +50,22 @@
     }
 
     .blog-desc {
-      margin-top: 20px;
+      // margin-top: 20px;
       display: flex;
       flex-direction: column;
 
       &__title {
         font-size: 22px;
-        color: #333333;
+        color: #666;
       }
 
       &__description {
         font-size: 14px;
-        color: #999999;
+        color: #666;
       }
 
       a {
-        color: #666666;
+        color: #666;
 
         &:hover {
           color: rgb(255, 136, 0);
@@ -72,6 +77,14 @@
   .single-blog:nth-child(3n) {
     margin-right: 0px;
   }
+
+  // .single-blog:nth-child(even) {
+  //   background: linear-gradient(to right, #11998e, #38ef7d);
+  // }
+  // .single-blog:nth-child(odd) {
+  //   background: linear-gradient(to left, #8f94fb, #4e54c8);
+  // }
+  
 }
 
 @media only screen and (max-width: 767px) {

@@ -84,22 +84,23 @@ function Blog() {
       { '>' } 15k views on blogs
       </div>
       <div className="blog-wrapper">
-        {mainObjArr.map((element) => {
+        {mainObjArr.map((element, index) => {
           return (
             <div className="single-blog">
               <div className="layer-2"></div>
               <div className="blog-desc">
-                <span className="blog-desc__title">{element.title}</span>
-                <span className="blog-desc__description">
+                <img src={`https://source.unsplash.com/random/${index}`} />
+                {/* <span className="blog-desc__title">{element.title}</span> */}
+                {/* <span className="blog-desc__description">
                   {element.description}
-                </span>
+                </span> */}
                 <a
                   href={element.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => trackClick(element.link)}
                 >
-                  Read more...
+                <span className="blog-desc__title">{element.title}</span>
                 </a>
               </div>
             </div>
